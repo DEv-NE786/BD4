@@ -8,7 +8,7 @@ const commando = require(`discord.js-commando`);
 
 const config = require('./config.json');
 const bot = new commando.Client({
-    commandPrefix:'1',
+    commandPrefix:'4',
     owner: config.id
 });
 
